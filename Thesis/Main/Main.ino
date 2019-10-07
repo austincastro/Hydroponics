@@ -181,6 +181,11 @@ void setup()
   //STARTING
   for(i = 0; i < 3; i++)
     lcd[i].clear();
+
+  if(!FLT_Value[5])
+    state = 2;
+  else if(!FLT_Value[6] && !FLT_Value[7])   
+    state = 5; 
 }
 
 void loop()

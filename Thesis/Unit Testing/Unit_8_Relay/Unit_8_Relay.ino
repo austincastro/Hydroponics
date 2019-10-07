@@ -27,5 +27,6 @@ void loop()
     
     digitalWrite(RLY[i], LOW);
     delay(1000);
+   
   }
 }
